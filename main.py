@@ -2,7 +2,7 @@ import http.server
 import socketserver
 import time
 
-PORT = 8000
+PORT = int(os.environ.get("PORT", 8000))
 stats = {"total_visits": 0}
 
 class StableBlockHandler(http.server.BaseHTTPRequestHandler):
