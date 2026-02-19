@@ -33,7 +33,7 @@ class StableBlockHandler(http.server.BaseHTTPRequestHandler):
                     f"          >> {count} <<\n"
                     f"--------------------------\n"
                     f"You are visitor number: {my_id}\n"
-                    f"Updating live... (Ctrl+C to stop)\n"
+                    f"Updating live... (Ctrl+C to stop)By Aryam from 7MB\n"
                 )
 
                 self.wfile.write(output.encode("utf-8"))
